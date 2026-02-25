@@ -1,43 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Latihan Soal CPNS</title>
+  <title>Latihan Soal CPNS – Gudang Soal CPNS</title>
+  <meta name="description" content="Siapkan dirimu menghadapi seleksi CPNS dengan aplikasi latihan SKD TWK, TIU, TKP. Download gratis di Play Store.">
+  <meta name="keywords" content="CPNS, latihan soal CPNS, tryout SKD, TWK TIU TKP, aplikasi CPNS">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Latihan Soal CPNS",
+    "operatingSystem": "ANDROID",
+    "applicationCategory": "GameApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "IDR"
+    },
+    "url": "https://play.google.com/store/apps/details?id=com.example.latihansoalcpns",
+    "description": "Aplikasi latihan tryout CPNS dengan analisis hasil dan review jawaban.",
+    "image": "https://yourdomain.com/assets/mockup.png"
+  }
+  </script>
+
   <style>
+    :root {
+      --primary: #0F5EDD;
+      --dark: #0a3f99;
+      --light-bg: #f4f6fb;
+      --text: #333;
+      --font: 'Inter', sans-serif;
+    }
+    * { box-sizing: border-box; }
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      font-family: var(--font);
+      color: var(--text);
+      background: var(--light-bg);
       line-height: 1.6;
-      background: #f4f4f4;
-      color: #333;
     }
-    header {
-      background: #0073e6;
-      color: #fff;
-      padding: 20px 0;
-      text-align: center;
+    a { color: var(--primary); text-decoration: none; }
+    header { background: var(--primary); color: #fff; padding: 40px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2.2rem; }
+    .container { max-width: 960px; margin: 0 auto; padding: 20px; }
+    .hero {
+      display: flex; flex-direction: column; align-items: center; text-align: center;
+      padding: 60px 20px; background: #fff;
     }
-    .container {
-      max-width: 800px;
-      margin: 30px auto;
-      background: #fff;
-      padding: 20px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1, h2 {
-      margin-top: 0;
-    }
-    footer {
-      text-align: center;
-      padding: 10px 0;
-      background: #eaeaea;
-      margin-top: 30px;
-    }
-    a {
-      color: #0073e6;
-      text-decoration: none;
+    .hero h2 { font-size: 1.8rem; max-width: 700px; }
+    .hero p { margin: 20px 0; font-size: 1.1rem; }
+    .btn-primary { background: var(--primary); color: #fff; padding: 12px 24px; border: none; border-radius: 4px; font-weight: 600; display: inline-flex; align-items: center; }
+    .btn-primary img { height: 24px; margin-right: 8px; }
+    section { padding: 60px 20px; }
+    .features, .why, .how, .subscription, .faq, .testimonials { background: #fff; }
+    .feature-item { display: flex; align-items: flex-start; margin-bottom: 30px; }
+    .feature-item img { width: 40px; margin-right: 16px; }
+    .feature-item h3 { margin-top: 0; }
+    .columns { display: flex; flex-wrap: wrap; gap: 20px; }
+    .column { flex: 1; min-width: 280px; }
+    .faq-details { margin-bottom: 20px; }
+    footer { background: #f1f3f6; text-align: center; padding: 30px 20px; font-size: 0.9rem; }
+    footer a { margin: 0 8px; }
+    @media (min-width: 768px) {
+      .hero { flex-direction: row; justify-content: space-between; text-align: left; }
+      .hero .hero-text { flex: 1; }
+      .hero .hero-image { flex: 1; }
     }
   </style>
 </head>
@@ -45,33 +79,178 @@
   <header>
     <h1>Latihan Soal CPNS</h1>
   </header>
-  <div class="container">
-    <h2>Tentang Aplikasi</h2>
-    <p>
-      "Latihan Soal CPNS" adalah aplikasi Android yang dirancang untuk membantu calon peserta seleksi
-      CPNS berlatih dengan soal-soal terbaru dan relevan. Aplikasi ini menyediakan berbagai kategori
-      soal, penjelasan jawaban, serta fitur latihan ujian dengan waktu terukur sehingga pengguna dapat
-      mempersiapkan diri secara maksimal.
-    </p>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Siapkan Diri Menghadapi Seleksi CPNS dengan Strategi yang Tepat</h2>
+      <p>Aplikasi latihan SKD (TWK, TIU, TKP) dengan analisis hasil lengkap dan program 30 hari.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.example.latihansoalcpns" class="btn-primary" target="_blank" rel="noopener">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play Store logo">Download di Play Store
+      </a>
+    </div>
+    <div class="hero-image">
+      <img src="https://via.placeholder.com/300x600?text=Mockup+App" alt="Screenshot aplikasi Latihan Soal CPNS" style="max-width:100%;border-radius:16px;">
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features container">
     <h2>Fitur Utama</h2>
+    <div class="feature-item">
+      <img src="https://via.placeholder.com/40" alt="Icon tryout">
+      <div>
+        <h3>Tryout SKD Terkini</h3>
+        <p>Paket tryout SKD (TWK, TIU, TKP) dengan target passing grade, soal terbaru, sesuai format resmi, paket 30 hari.</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <img src="https://via.placeholder.com/40" alt="Icon analisis">
+      <div>
+        <h3>Analisis Hasil Komprehensif</h3>
+        <p>Perbandingan skor vs passing grade per kategori, grafik tren progres, insight kategori, distribusi skor dan statistik detail.</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <img src="https://via.placeholder.com/40" alt="Icon jawaban">
+      <div>
+        <h3>Detail Jawaban Lengkap</h3>
+        <p>Teks soal lengkap, semua pilihan jawaban, indikator benar/salah, penjelasan untuk setiap soal, status benar/salah per soal.</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <img src="https://via.placeholder.com/40" alt="Icon review">
+      <div>
+        <h3>Review &amp; Rating</h3>
+        <p>Berikan umpan balik untuk perbaikan soal: rating bintang, ulasan tertulis, feedback per soal.</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <img src="https://via.placeholder.com/40" alt="Icon riwayat">
+      <div>
+        <h3>Riwayat Percobaan</h3>
+        <p>Pantau perkembangan skor dari waktu ke waktu dengan histori tryout, grafik progres, perbandingan skor.</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <img src="https://via.placeholder.com/40" alt="Icon admin">
+      <div>
+        <h3>Dashboard Admin/Employee</h3>
+        <p>Kelola paket soal dan monitor ulasan (akses terbatas): upload soal, edit soal, import CSV, monitoring rating &amp; review.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Section -->
+  <section class="why container">
+    <h2>Kelebihan Aplikasi</h2>
+    <div class="columns">
+      <div class="column">
+        <h3>Fokus pada Strategi</h3>
+        <p>Lihat kategori yang belum memenuhi passing grade dengan jelas.</p>
+        <img src="https://via.placeholder.com/400x200?text=Strategi+Screenshot" alt="Screenshot analisis kategori" style="width:100%;border-radius:8px;">
+      </div>
+      <div class="column">
+        <h3>Data-Driven</h3>
+        <p>Grafik tren dan distribusi skor memudahkan evaluasi performa.</p>
+        <img src="https://via.placeholder.com/400x200?text=Grafik" alt="Screenshot grafik skor" style="width:100%;border-radius:8px;">
+      </div>
+      <div class="column">
+        <h3>Praktis &amp; Efektif</h3>
+        <p>Latihan berulang, cek hasil, perbaiki kelemahan dengan cepat.</p>
+        <img src="https://via.placeholder.com/400x200?text=Flow+Latihan" alt="Screenshot flow latihan" style="width:100%;border-radius:8px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how container">
+    <h2>Cara Kerja</h2>
+    <ol>
+      <li>Download &amp; install aplikasi dari Play Store.</li>
+      <li>Daftar/Login dengan akun Google.</li>
+      <li>Pilih paket tryout (Free atau Pro).</li>
+      <li>Mulai tryout SKD (TWK, TIU, TKP).</li>
+      <li>Lihat hasil &amp; analisis lengkap.</li>
+      <li>Review detail jawaban &amp; penjelasan.</li>
+      <li>Pantau progres dari waktu ke waktu.</li>
+    </ol>
+  </section>
+
+  <!-- Subscription Model Section -->
+  <section class="subscription container">
+    <h2>Subscription Model</h2>
+    <table style="width:100%;border-collapse:collapse;">
+      <tr>
+        <th style="border:1px solid #ddd;padding:8px;">Fitur</th>
+        <th style="border:1px solid #ddd;padding:8px;">Free</th>
+        <th style="border:1px solid #ddd;padding:8px;">Pro</th>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ddd;padding:8px;">Akses paket tryout tertentu</td>
+        <td style="border:1px solid #ddd;padding:8px;">✔️</td>
+        <td style="border:1px solid #ddd;padding:8px;">✔️ semua paket</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ddd;padding:8px;">Analisis hasil komprehensif</td>
+        <td style="border:1px solid #ddd;padding:8px;">Terbatas</td>
+        <td style="border:1px solid #ddd;padding:8px;">Lengkap</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ddd;padding:8px;">Review jawaban</td>
+        <td style="border:1px solid #ddd;padding:8px;">✔️</td>
+        <td style="border:1px solid #ddd;padding:8px;">✔️</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Disclaimer Section -->
+  <section class="container">
+    <h2>⚠️ Disclaimer Penting</h2>
+    <p>Aplikasi ini TIDAK mewakili, berafiliasi dengan, atau disetujui oleh lembaga pemerintah manapun. Ini adalah aplikasi pihak ketiga yang dibuat untuk tujuan latihan dan pembelajaran semata.</p>
+    <p>Sumber Resmi CPNS:</p>
     <ul>
-      <li>Kumpulan soal CPNS lengkap dengan pembahasan.</li>
-      <li>Latihan ujian dengan batas waktu.</li>
-      <li>Simulasi hasil dan statistik kemajuan.</li>
-      <li>Antarmuka sederhana dan mudah digunakan.</li>
+      <li><a href="https://www.bkn.go.id" target="_blank" rel="noopener">Badan Kepegawaian Negara (BKN)</a></li>
+      <li><a href="https://sscasn.bkn.go.id" target="_blank" rel="noopener">Portal SSCASN</a></li>
     </ul>
-    <h2>Informasi Iklan</h2>
-    <p>
-      Untuk mendukung pengembangan aplikasi, kami menggunakan layanan iklan yang sah. Domain
-      website ini menyediakan file <code>app-ads.txt</code> untuk dikaitkan dengan aplikasi di
-      Google Play Console.
-    </p>
-    <p>
-      Silakan akses <a href="/app-ads.txt">app-ads.txt</a> untuk melihat konfigurasi iklan.
-    </p>
-  </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials container">
+    <h2>Testimoni Pengguna</h2>
+    <p>Rating rata-rata di Play Store: ★★★★☆ (jika tersedia).</p>
+    <blockquote>"Aplikasi ini sangat membantu saya mempersiapkan ujian CPNS!" – Pengguna</blockquote>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq container">
+    <h2>FAQ</h2>
+    <div class="faq-details">
+      <strong>Apakah aplikasi ini resmi dari pemerintah?</strong>
+      <p>Tidak, ini aplikasi pihak ketiga.</p>
+    </div>
+    <div class="faq-details">
+      <strong>Apakah ada versi gratis?</strong>
+      <p>Ya, ada paket free dan pro.</p>
+    </div>
+    <div class="faq-details">
+      <strong>Bagaimana cara melihat penjelasan jawaban?</strong>
+      <p>Penjelasan otomatis muncul di detail jawaban jika tersedia.</p>
+    </div>
+    <div class="faq-details">
+      <strong>Apakah data saya aman?</strong>
+      <p>Ya, menggunakan Firebase dengan enkripsi.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    &copy; 2026 Latihan Soal CPNS. All rights reserved.
+    <div class="container">
+      <a href="https://play.google.com/store/apps/details?id=com.example.latihansoalcpns" target="_blank" rel="noopener">Download di Play Store</a> |
+      <a href="https://hadi96.github.io/privacy-policy/gudang-soal-privacy-policy.html" target="_blank" rel="noopener">Privacy Policy</a> |
+      <a href="#">Disclaimer</a>
+      <p>© 2026 Latihan Soal CPNS. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
